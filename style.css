@@ -60,5 +60,17 @@ a {
   line-height: 14px;
 }
 
-.food-list {
+h4 {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.form > .forml-label {
+  padding: 12px;
+  display: flex;
+  justify-content: left;
+}
+
+.form > .form-label > div {
+  display: inline;
 }

@@ -11,6 +11,7 @@
 
 <body>
   <header>
+
     <h1>Lista de la compra</h1>
     <nav>
       <ul>
@@ -21,21 +22,26 @@
     </nav>
   </header>
   <main>
+    <section class="submenu">
+      <a href="./index.html">-</a>
+      <h3>2/3 comprados</h3>
+    </section>
     <h4>Añadir artículo</h4>
-    <div>
-      <label for="nombre">Nombre:</label>
-      <input type="text" name="nombre">
-    </div>
-    <div>
-      <label for="precio">Precio:</label>
-      <div>
-        <input type="text" name="precio">
-        <h2>€</h2>
+    <form class="form">
+      <div class="form-label">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre">
       </div>
-    </div>
+      <div class="form-label">
+        <label for="precio">Precio:</label>
+        <div>
+          <input type="text" name="precio">
+          <h2>€</h2>
+        </div>
+      </div>
 
-    <button type="submit">Añadir</button>
-
+      <button type="submit">Añadir</button>
+    </form>
 
 
 
